@@ -1,12 +1,30 @@
 img {
-  height: 230px;
-  justify-content: space-between;
+  height: 250px;
+  width:  250px;
+  padding: 10px;
+  display: in-block;
+  object-fit: cover;
+  border: px solid white;
+
 
 }
 h1
 {
   text-align: center;
-  color: grey;
-  background-color: lightpink;
+  font-family: 'Special Elite', cursive;
+  background-color: #FFD451;
+  color: white;
+  padding: 10px;
+  margin-right: 5px;
 
+}
+section
+{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+body{
+  background-image: url(https://images.all-free-download.com/images/graphiclarge/sunflowers_background_multicolored_flat_repeating_decor_6831942.jpg);
+  text-align: center;
 }
